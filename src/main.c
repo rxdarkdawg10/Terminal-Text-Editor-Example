@@ -320,8 +320,6 @@ void editorRowAppendString(erow *row, char *s, size_t len) {
     row->chars[row->size] = '\0';
     
     editorUpdateRow(row);
-
-    
     E.dirty++;
 }
 
